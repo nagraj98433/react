@@ -1,0 +1,82 @@
+.bi-code-square {
+  font-size: 3rem;
+}
+
+.flag-icon {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 20px;
+}
+
+.feature-icon {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75px;
+}
+
+.eng-icon {
+  background-image: url("./assets/flags/4x3/gb.svg");
+}
+
+.ro-icon {
+  background-image: url("./assets/flags/4x3/ro.svg");
+}
+
+.uk-icon {
+  background-image: url("./assets/flags/4x3/ua.svg");
+}
+
+.th-icon {
+  background-image: url("./assets/flags/4x3/th.svg");
+}
+
+.vi-icon {
+  background-image: url("./assets/flags/4x3/vn.svg");
+}
+
+.profileIcon {
+  background-image: url("./assets/svg/profile.svg");
+}
+
+.staffIcon {
+  background-image: url("./assets/svg/staff.svg");
+}
+
+.menuIcon {
+  background-image: url("./assets/svg/menu.svg");
+}
+
+.qrIcon {
+  background-image: url("./assets/svg/qr.svg");
+}
+
+.taxIcon {
+  background-image: url("./assets/svg/tax.svg");
+}
+
+.paymentIcon {
+  background-image: url("./assets/svg/payment.svg");
+}
+
+.offersIcon {
+  background-image: url("./assets/svg/offers.svg");
+}
+
+.notificationIcon {
+  background-image: url("./assets/svg/notification.svg");
+}
+
+.receiptIcon {
+  background-image: url("./assets/svg/receipt.svg");
+}
+
+.reportIcon {
+  background-image: url("./assets/svg/report.svg");
+}
+
+.operationsIcon {
+  background-image: url("./assets/svg/operations.svg");
+}

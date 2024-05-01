@@ -1,0 +1,107 @@
+.restroCard{
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+
+.restroCard:hover{
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background-image: linear-gradient(135deg, transparent, #ffe4e4);
+}
+
+.restaurantImg{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    background-image: url("https://i.pinimg.com/originals/97/63/d1/9763d16e973116e6ba6cf52b96e522f0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.restaurantName{
+    font-size: 14px;
+}
+
+.countValue{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.countName{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.restoActionsName{
+    font-size: 9px;
+    font-weight: 600;
+  }
+  
+  .restoActions{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.4s ease-in-out;
+  }
+
+  .restroCard:hover .restoActions{
+    height: 45px;
+    overflow: hidden;
+  }
+
+  .restaurantCard{
+    position: relative;
+  }
+
+  .restoLogoBox{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .restaurantName{
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+    transition: 0.4s ease-in-out;
+    width: 60%;
+  }
+
+  .restaurantCard:hover .restoLogoBox{
+    transform: translate(-100px, -50%);
+  }
+
+  .restaurantCard:hover .restaurantName{
+    top: 15%;
+    left: 50%;
+    transform: translate(-60%, -10%);
+    width: 70%;
+    text-decoration: underline;
+  }
+
+  .restaurantActions{
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    left: 50%;
+    bottom: -100px;
+    transform: translateX(-50%);
+    text-wrap: nowrap;
+    white-space: nowrap;
+  }
+
+  .restaurantCard:hover .restaurantActions{
+    opacity: 1;
+    bottom: 10px;
+  }
+
+  .restaurantCard:hover .outletName{
+    text-decoration: underline;
+  }

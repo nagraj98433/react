@@ -1,0 +1,57 @@
+.restoShimmerCard{
+    height: 90px;
+    width: 100%;
+    background-color: #dfdfdf;
+}
+
+.restaurantImgShimmer{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.restoTitleShimmer{
+    height: 20px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.restoIconShimmer{
+    height: 12px;
+    width: 12px;
+}
+
+.restoContentShimmer{
+    height: 25px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.shimmerBG {
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #ddd;
+    background: linear-gradient(to right, #f1f1f1 8%, #fff 18%, #f1f1f1 33%);
+    background-size: 1200px 100%;
+}
+
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1200px 0;
+    }
+    100% {
+        background-position: 1200px 0;
+    }
+}
